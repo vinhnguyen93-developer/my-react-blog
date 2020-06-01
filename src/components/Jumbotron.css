@@ -1,0 +1,21 @@
+.jumbo {
+  background: url('../assets/jumbotron.jpg') no-repeat fixed bottom;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  z-index: -2;
+  color: rgb(236, 234, 234);
+  display: flex;
+  text-align: center;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
