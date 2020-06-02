@@ -9,6 +9,7 @@ import NoMatch from './NoMatch';
 import Layout from './components/Layout';
 import Navigation from './components/Navigation';
 import Jumbotron from './components/Jumbotron';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </Switch>
         </Router>
         </Layout>
+        <Footer />
     </React.Fragment>
   );
 }
